@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./layout/Layout";
-import Calendar from "./pages/Calendar";
-import Routines from "./pages/Routines";
+import Calendar from "./pages/Calendar/Calendar";
+import Routines from "./pages/Routines/Routines";
 
 import "./App.css";
 

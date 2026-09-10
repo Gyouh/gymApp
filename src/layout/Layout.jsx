@@ -7,6 +7,8 @@ import {
 
 import "./Layout.css";
 
+import Header from "../components/Header/Header.jsx";
+
 const navItems = [
   {
     label: "Home",
@@ -30,6 +32,7 @@ export default function Layout({ children }) {
     <div className="layout">
 
       <header className="layout-header">
+        <Header />
       </header>
 
       <main className="layout-main">

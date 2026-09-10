@@ -1,0 +1,20 @@
+#create-routine
+{
+    background-color: rgba(10, 10, 10, 0.95);
+    padding: 1rem;
+    border-radius: .8rem;
+    transition: .5s;
+    cursor: pointer;
+    border: 1px solid #292929;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    top: 15rem;
+}
+
+#create-routine:hover
+{
+    background-color: #b6f500;
+    color: #202020;
+}
+
