@@ -9,6 +9,8 @@ const Routines = () => {
             <RoutineBox />
             <RoutineBox />
             <RoutineBox />
+            <RoutineBox />
+            <RoutineBox />
 
             <div id="create-routine">
                 <h2>+ Stwórz nową rutynę</h2>
