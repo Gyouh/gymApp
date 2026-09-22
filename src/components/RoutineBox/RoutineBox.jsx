@@ -1,14 +1,14 @@
 import "./RoutineBox.css";
 
-const RoutineBox = () => {
+const RoutineBox = ( { onClick, title, exercisesCount  } ) => {
 
     return (
-        <>
+        <div onClick={onClick} tabIndex={0}>
             <ul>
-                <li><h1>Push</h1></li>
-                <li>5 ćwiczeń - Ostatnio: 2 dni temu</li>
+                <li><h1>{title}</h1></li>
+                <li>{exercisesCount} ćwiczeń - Ostatnio: X dni temu</li>
             </ul>
-        </>
+        </div>
     )
 }
 

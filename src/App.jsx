@@ -2,7 +2,9 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import Layout from "./layout/Layout";
 import Calendar from "./pages/Calendar/Calendar";
-import Routines from "./pages/Routines/Routines";
+import Routines from "./pages/Routines/Main/Routines";
+
+import Routine from "./pages/Routines/Routine/Routine";
 
 import "./App.css";
 
@@ -23,6 +25,7 @@ export default function App() {
           <Route path="/" element={<Home />} />
           <Route path="/calendar" element={<Calendar />} />
           <Route path="/routines" element={<Routines />} />
+          <Route path="/routine/:id" element={<Routine />} />
         </Routes>
       </Layout>
     </BrowserRouter>
