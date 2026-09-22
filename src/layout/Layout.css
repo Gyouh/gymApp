@@ -1,6 +1,6 @@
 .layout {
   min-height: 100vh;
-  background: #0a0a0a;
+  background: #181818;
   color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -19,8 +19,8 @@
 
   padding: 0 18px;
 
-  background: rgba(10, 10, 10, 0.92);
-  border-bottom: 1px solid #222;
+  background: #181818;
+  border-bottom: 2px solid #333;
 
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
@@ -157,14 +157,12 @@
   font-size: 10px;
   font-weight: 600;
 
+  color: #d4d4d8;
+
   transition:
     background 0.2s ease,
     color 0.2s ease,
     transform 0.2s ease;
-}
-
-.layout-nav-item:hover {
-  color: #d4d4d8;
 }
 
 .layout-nav-item.active {
